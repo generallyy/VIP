@@ -15,12 +15,14 @@ expanding the hardware.
 
 | Project | Focus |
 | --- | --- |
+| [Teensy C major chord controller](teensy_c_major_chords/README.md) | Seven buttons on pins 2-8 for C, Dm, Em, F, G, Am, Bdim; A1 selects normal, 7th, or 9th chords over native USB MIDI. |
 | [Teensy 4.0 MIDI controller](teensy_midi_controller/README.md) | Native USB MIDI, the current chord/pan controls, optional reverb/voicings, and expandable button/knob mappings. |
 | [Chord controller](elegoo_controls/README.md) | Two chord buttons with potentiometer-selected voicings and a Windows MIDI bridge. |
 | [Effects controller](garageband_fx_controls/README.md) | Continuous pan and reverb controls with a Python bridge for GarageBand. |
 | [Combined chord and pan controller](elegoo_chord_pan_controller/README.md) | Fmaj7/Cmaj7 buttons and continuous pan control, combining both prototypes in a PlatformIO project. |
 
-Start with the **Teensy 4.0 MIDI controller** for the new hardware. For the Uno,
+Start with the **Teensy C major chord controller** for the seven-button hardware,
+or the **Teensy 4.0 MIDI controller** for the earlier two-button setup. For the Uno,
 use the **combined chord and pan controller**. Each project includes wiring,
 uploading, and DAW setup instructions. Teensy potentiometers use **3.3V**,
 replacing the Uno's 5V wiring.
